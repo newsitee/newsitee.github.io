@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Navbar</title>
+    <!-- Подключаем Bootstrap CSS через CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Подключаем style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./front/stylesheet.css">
+    <style>
+
+        td, th {
+            border: 1px solid #f0f0f0; /* задаем сплошную границу размером 5 пикселей цвета #F50 */
+            width: 105px; /* ширина ячеек */
+            height: 53px; /* высота ячеек */
+        }
+        caption {
+            font-weight: bold; /* жирное начертание */
+        }
+        .first {
+            border-spacing: 0; /* промежуток между ячейками таблицы отсутствует */
+            margin-bottom: 47px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="header1">
+    <div class="row">
+    <div class="container-fluid">
+
+            <div class="um-border"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="topnav" id="myTopnav">
+                <a></a>
+                <a href="#home" class="active">Главная</a>
+                <a href="#news">Новости</a>
+                <a href="#contact">Справочник</a>
+                <a href="#about">Навигатор</a>
+                <a href="#about">Онлайн-сервисы</a>
+                <a href="#about">Афиши</a>
+                <a href="#about">Объявления</a>
+                <a href="#about">Скидки</a>
+                <a href="#about">Реклама</a>
+                <a href="#about">Форум</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-12">
+    <div class="banner">
+
+    </div>
+</div>
+    </div>
+        <div class="col-xs-12 col-md-9">
+        <div class="row">
+                <div class="ber">
+
+                    <a href="/" title="Главная">
+                        ГЛАВНАЯ
+                    </a>
+                    <a href="/" title="Главная">
+                        ГОСТЯМ
+                    </a>
+                    <span>ИСТОРИЯ ГОРОДА И РАЙОНА</span>
+                </div>
+
+            </div>
+            <div class="col-9">
+            <div class="row">
+                <div class="text2">
+                    <p>АФИША КИНОТЕАТРА</p>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" > <img  src='./img/movie%20(1).png' title='Семь чудес света'>
+                        <h2><span>КИНО</span></h2> </a>
+                    </div>
+                    <div class="film_label"><a href="show.html">24.02-7.03</a></div>
+                    <div class="film_label1"><a href="show.html">Лёд 2</a></div>
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" >
+                        <img src='./img/movie%20(4).png' title='Семь чудес света'>
+                        <h2><span>КИНО</span></h2> </a>
+                    </div>
+                    <div class="film_label"><a href="show.html">28.02-16.03</a></div>
+                    <div class="film_label1"><a href="show.html">Зов предков</a></div>
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" > <img src='./img/movie%20(7).png' title='Семь чудес света'>
+                        <h2><span>КИНО</span></h2> </a>
+                    </div>
+                    <div class="film_label"><a href="show.html">28.02-16.03</a></div>
+                    <div class="film_label1"><a href="show.html">Мулан 12+ 2D</a></div>
+                </div>
+                <div class="col-sm">
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" > <img src='./img/movie%20(2).png' title='Семь чудес света'>
+                        <h2><span>КИНО</span></h2> </a>
+                    </div>
+                    <div class="film_label"><a href="show.html">28.02-16.03</a></div>
+                    <div class="film_label1"><a href="show.html">Джентльмены</a></div>
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" ><img src='./img/movie%20(5).png' title='Семь чудес света'>
+                        <h2><span>КИНО</span></h2></a>
+                    </div>
+                    <div class="film_label"><a href="show.html">28.02-16.03</a></div>
+                    <div class="film_label1"><a href="show.html">Калашников</a></div>
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" >  <img src='./img/movie%20(8).png' title='Семь чудес света'>
+                        <h2><span>КИНО</span></h2></a>
+                    </div>
+                    <div class="film_label"><a href="show.html">28.02-16.03</a></div>
+                    <div class="film_label1"><a href="show.html">После. Глава 2 16+ 2D</a></div>
+                </div>
+                <div class="col-sm">
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" >  <img src='./img/movie%20(3).png' title='Семь чудес света'>
+                        <h2><span>КИНО</span></h2></a>
+                    </div>
+                    <div class="film_label"><a href="show.html">28.02-16.03</a></div>
+                    <div class="film_label1"><a href="show.html">Пушки Акимбо</a></div>
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" >  <img src='./img/movie%20(6).png' title='Семь чудес света'>
+                        <h2><span>КИНО</span></h2></a>
+                    </div>
+                    <div class="film_label"><a href="show.html">28.02-16.03</a></div>
+                    <div class="film_label1"><a href="show.html">Довод 16+ 2D</a></div>
+                    <div class='imgblock2'>
+                        <a class="fig" href="//" > <img src='./img/movie%20(9).png' title='Семь чудес света'>
+                            <h2><span>КИНО</span></h2></a>
+                    </div>
+                    <div class="film_label"><a href="show.html">28.02-16.03</a></div>
+                    <div class="film_label1"><a href="show.html">Стрельцов 6+ 2D</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-3 col-sm-3">
+        <div class="row">
+            <a class="mmm" href="show.html"> </a>
+            <a class="mmm" href="show.html"> </a>
+            <a class="mmm" href="show.html"> </a>
+            <a class="mmm" href="show.html"> </a>
+            <a class="mmm" href="show.html"> </a>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="footer5">
+        <div class="container-fluid">
+            <div class="col-xs-12 col-md-6">
+            <div class="row">
+                    <p class="beltext">Следите за новостями <br>
+                        в социальных сетях</p>
+                </div>
+                <div class="row">
+                    <table class = "first">
+                        <tr>
+                            <th class="foto"> <a href="show.html"> <img src="./img/VK.png" href="/">   </a></th>
+                            <th class="foto">  <a href="show.html"><img src="./img/VK.png" href="/"> </a></th>
+                            <th class="foto"> <a href="show.html"><img src="./img/VK.png" href="/">  </a></th>
+                            <th class="foto"> <a href="show.html"><img src="./img/VK.png" href="/">  </a></th>
+                            <th class="foto"> <a href="show.html"><img src="./img/VK.png" href="/">  </a></th>
+                            <th class="foto"> <a href="show.html"><img src="./img/VK.png" href="/">  </a></th>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="row">
+                    <p class="beltext">Получайте свежие <br>
+                        материалы на почту</p>
+                    </div>
+                    <div class="main-agile">
+                                <form action="#" method="post">
+                                    <input type="email"  class="email" name="eamil" placeholder="Введите ваш e-mail" required="">
+                                    <input type="submit" value="Подписаться">
+                                </form>
+                    </div>
+        </div>
+    </div>
+    </div>
+<div class="footer8">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-3">
+                <div class="nrrr3"><a href="show.html">Техническая поддержка</a></div>
+                <div class="nrrr4"><a href="show.html">Размещение рекламы</a></div>
+                <div class="nrrr4"><a href="show.html">Редакция</a></div>
+                <div class="nrrr5"><a href="show.html">Правила перепечатки</a></div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <p class="text53">Адрес: г. Солигорск, ул. Железнодорожная 12А (ТЦ "Восток"), 3-й этаж.
+                    Режим работы офиса:
+                    ПН-ПТ: с 8:00 до 17:00, ПТ: с 8:00 до 16:00.
+                    Выходной: СБ, ВС.</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <p class="text66">Свидетельство о гос. регистрации
+                    № 691542560 от 14.03.2013 г. выдано
+                    Солигорским райисполкомом.</p>
+                <p class="text662">Банковские реквизиты:
+                    р/с BY23PJCB30121010551000000933,
+                    ОАО «Приорбанк», код PJCBBY2X,
+                    Богомолова, д. 16а УНП 691542560.</p>
+                <p class="text77">© ООО "Электронный Солигорск" 2000-2020. <br>Информационно-справочный портал "Электронный Солигорск".
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Подключаем jQuery и Bootstrap JS через CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+<script>
+    $(".five li ul").hide();
+    $(".five li:has('.submenu')").hover(
+        function(){
+            $(".five li ul").stop().fadeToggle(300);}
+    );
+</script>
+</body>
+</html>
